@@ -35,4 +35,9 @@
         flex-direction: column;
         align-items: flex-start;
     }
+
+    p {
+        color: var(--primary);
+        font-size: 14px;
+    }
 </style>

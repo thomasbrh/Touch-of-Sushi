@@ -9,6 +9,7 @@
 html {
     font-size: 20px;
     overflow-x: hidden;
+    background-color: var(--primary);
 }
 
 :root {
@@ -25,8 +26,28 @@ html {
     height: 3rem;
 }
 
+.bg__section {
+    position: relative;
+    width: 100dvw;
+    min-height: 100dvh;
+}
+
+.bg__section::before {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    position: absolute;
+    content: "";
+    inset: 0;
+
+    opacity: 0.35;
+    z-index: -1000;
+}
+
 h1, h2, h3, h4{
     font-family: var(--font-title);
+    color: var(--white);
     font-weight: 600;
     line-height: 120%;
 }
@@ -54,10 +75,16 @@ h4 {
 p {
     font-size: 20px;
     font-family: var(--font-texte);
+    color: var(--white);
     font-weight: 400;
     line-height: 160%;
+    max-width: 75ch;
 }
 
 section {
     padding: 1rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
