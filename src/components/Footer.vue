@@ -18,7 +18,7 @@
 
 <style scoped>
     .background__img--footer {
-        background-image: url('../assets/images/Sushi-footer.svg');
+        background-image: url('../assets/images/footer.svg');
         background-size: 35% auto;
         background-position: right;
         background-repeat: no-repeat;

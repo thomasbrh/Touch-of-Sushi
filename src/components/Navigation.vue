@@ -1,7 +1,7 @@
 <script setup>
     const links = [
     { name: '寿司', url: '#' },
-    { name: '住所', url: '#' },
+    { name: '寿司の種類', url: '#' },
 ]
 </script>
 
@@ -12,9 +12,8 @@
         </a>
 
         <ul class="nav-links">
-            <li v-for="link in links" :key="link.name">
-                <a :href="link.url">{{ link.name }}</a>
-            </li>
+            <router-link to="/">寿司</router-link>
+            <router-link to="/Sushi">寿司の種類</router-link>
         </ul>
     </nav>
 </template>
@@ -32,6 +31,7 @@
         display: flex;
         gap: 2rem;
         list-style: none;
+        cursor: pointer;
     }
 
     .nav-links a {
