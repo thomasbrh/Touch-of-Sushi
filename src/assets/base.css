@@ -88,3 +88,26 @@ section {
     align-items: flex-start;
     justify-content: center;
 }
+
+.accompagnements {
+    width: calc(100dvw - 12rem);
+    left: 6rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.box {
+    display: flex;
+    width: 35ch;
+    padding: 1rem;
+    background-color: var(--secondary);
+    border-radius: 2rem;
+}
+.box p {
+    color: var(--primary);
+}
+
+.icon {
+    width: 8rem;
+    height: 8rem;
+}

@@ -14,6 +14,26 @@
         <h3>付け合わせを並べる</h3>
 
         <p>寿司はほとんどの場合、醤油、わさび、漬物生姜の3つの付け合わせとともに提供されます。</p>
+
+        <div class="accompagnements">
+            <!-- box soja -->
+            <div class="box">
+                <p>醤油は塩分を加え、魚の風味を引き立てます。</p>
+                <img class="icon" src="../assets/images/accompagnements__soja.svg" alt="">
+            </div>
+
+            <!-- box wasabi -->
+            <div class="box">
+                <p>わさびはピリッとした辛みを加えますが、ごく少量だけ加える必要があります。</p>
+                <img class="icon" src="../assets/images/accompagnements__wasabi.svg" alt="">
+            </div>
+
+            <!-- box gingembre -->
+            <div class="box">
+                <p>わさびはピリッとした辛みを加えますが、ごく少量だけ加える必要があります。</p>
+                <img class="icon" src="../assets/images/accompagnements__gingembre.svg" alt="">
+            </div>
+        </div>
     </section>
 
 
