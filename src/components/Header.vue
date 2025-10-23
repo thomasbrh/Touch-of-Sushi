@@ -1,10 +1,17 @@
 <script setup>
 
+defineProps({
+  title: {
+    type: String,
+    required: true
+  }
+})
+
 </script>
 
 <template>
     <header class="background__img--header">
-        <h1>寿司を食べてください</h1>
+        <h1>{{ title }}</h1>
     </header>
 </template>
 

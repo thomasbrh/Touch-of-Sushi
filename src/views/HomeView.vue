@@ -1,8 +1,9 @@
 <script setup>
-
+    import Header from '../components/Header.vue'
 </script>
 
 <template>
+    <Header title="寿司を食べてください"></Header>
     <!-- section 1 -->
     <section class="bg__section bg__section1">
         <h2>テイスティングの準備</h2>
