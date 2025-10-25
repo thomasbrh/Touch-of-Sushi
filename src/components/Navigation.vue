@@ -32,7 +32,7 @@
     .navigation {
         display: flex;
         align-items: center;
-        padding: 0.5rem 6rem;
+        padding: 0.55rem 6rem;
         gap: 2rem;
         background-color: #FFE5DC;
     }

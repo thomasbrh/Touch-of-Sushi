@@ -34,10 +34,11 @@
 
         <h4 class="gsap__text">寿司を正しく持ち、浸す</h4>
 
-        <p class="p-footer gsap__text">ありがとう、アドベストック。</p>
-        <p class="p-footer gsap__text">ディープル、ありがとう。</p>
+        <p class="p__footer gsap__text">ありがとう、アドベストック。</p>
+        <p class="p__footer gsap__text">ディープル、ありがとう。</p>
 
-        <p class="p-footer gsap__text">作成者 Thomas と Elodie。</p>
+        <p class="p__footer footer--link gsap__text">作成者 <a href="https://thomasbruch.be/portfolio/">Thomas</a> と <a href="http://www.elodiesomer.be/projets/TFA/Portfolio/">Elodie</a>。</p>
+        <small class="p__footer footer--link gsap__text">&copy; 2025 heaj student</small>
     </footer>
 </template>
 
@@ -48,21 +49,28 @@
         background-position: 75%;
         background-repeat: no-repeat;
         width: 100%;
-        max-height: 40dvh;
+        max-height: 49dvh;
 
         aspect-ratio: 3 / 2;
 
         display: flex;
         align-items: center;
-        padding: 1rem 6rem;
+        padding: 1.2rem 6rem;
         gap: 1rem;
         background-color: #FFE5DC;
         flex-direction: column;
         align-items: flex-start;
     }
-
     p {
         color: var(--primary);
         font-size: 14px;
+        margin: 0px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .footer--link{
+        font-size: 11px;
     }
 </style>

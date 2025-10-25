@@ -72,7 +72,7 @@
     h1 {
         max-width: 10ch;
         position: absolute;
-        top: 50dvh;
+        top: 43dvh;
         right: 35vw;
         transform: translate(50%, -50%);
     }
