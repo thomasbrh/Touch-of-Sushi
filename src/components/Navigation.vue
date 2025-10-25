@@ -4,11 +4,8 @@
     { name: '寿司の種類', url: '#' },
 ]
 
-import { gsap } from "gsap";
-    import { ScrollTrigger } from "gsap/ScrollTrigger";
+    import { gsap } from "gsap";
     import { onMounted } from "vue";
-
-    gsap.registerPlugin(ScrollTrigger);
 
     onMounted(() => {
         gsap.from(".navigation", {

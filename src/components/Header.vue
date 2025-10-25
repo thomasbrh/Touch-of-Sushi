@@ -1,13 +1,13 @@
 <script setup>
 
-defineProps({
-    title: {
-        type: String,
-        required: true
-    }
-})
+    defineProps({
+        title: {
+            type: String,
+            required: true
+        }
+    })
 
-import { gsap } from "gsap";
+    import { gsap } from "gsap";
     import { ScrollTrigger } from "gsap/ScrollTrigger";
     import { onMounted } from "vue";
 
@@ -20,9 +20,9 @@ import { gsap } from "gsap";
         });
 
         ScrollTrigger.create({
+            markers: false,
             trigger: ".gsap__section",
             start: "top bottom",
-            markers: true,
             end: "top top",
             scrub: true,
             pin: ".gsap__header",
@@ -50,15 +50,21 @@ import { gsap } from "gsap";
 </template>
 
 <style scoped>
-    .background__img--header{
+    .background__img--header::before{
         background-image: image-set(
             url('../assets/images/header.webp') 1x,
             url('../assets/images/header@2x.webp') 2x
         );
+
+        position: absolute;
+        content: "";
+        inset: 0;
+
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; 
         z-index: -1000;
+        opacity: 0.75;
 
         aspect-ratio: 3 / 2;  /* ou 1.5 figma => aspect-ratio: 1440/961; */
     }
