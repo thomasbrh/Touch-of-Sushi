@@ -10,6 +10,7 @@ html {
     font-size: 20px;
     overflow-x: hidden;
     background-color: var(--primary);
+    scroll-behavior: smooth;
 }
 
 :root {

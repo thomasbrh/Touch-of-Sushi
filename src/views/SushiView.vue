@@ -4,6 +4,8 @@
 
 <template>
     <Header title="さまざまな種類の寿司"></Header>
+
+
     <!-- section 1 -->
     <section class="bg__section bg__section1">
         <h2>寿司ワールド</h2>
@@ -33,7 +35,8 @@
 
     </section>
 
-        <!-- section 4 -->
+
+    <!-- section 4 -->
     <section class="bg__section bg__section4">
 
         <h3>手巻き</h3>
@@ -43,7 +46,7 @@
     </section>
 
 
-            <!-- section 5 -->
+    <!-- section 5 -->
     <section class="bg__section bg__section5">
 
         <h3>刺身</h3>
@@ -51,7 +54,9 @@
         <p>刺身は、日本の美食の芸術である日本料理です。生の魚を薄切りにしたものです。その調理には、特に切り方や盛り付けに関して高度な技術が必要です。ちなみに、刺身という言葉は文字通り「切り身」を意味します。マグロ、クロマグロ、サーモン、ロブスター、また、鯛やヒラメは、今日、刺身の調理に最もよく使用される食材です。これらは、そのまま、あるいは醤油と、場合によってはわさびを添えて食べられます。</p>
 
     </section>
-      <!-- section 6 -->
+
+
+    <!-- section 6 -->
     <section class="bg__section bg__section6">
         <h2>自分で作る方法 </h2>
 
@@ -82,30 +87,47 @@
             </div>
         </div>
     </section>
-
 </template>
 
 <style scoped>
     @import '../assets/base.css';
 
     .bg__section1::before {
-        background-image: url('../assets/images/Sushi__section1.jpeg');
+        background-image: image-set(
+            url('../assets/images/Sushi__section1.webp') 1x,
+            url('../assets/images/Sushi__section1@2x.webp') 2x
+        );
     }
 
     .bg__section2::before {
-        background-image: url('../assets/images/Sushi__section2.jpeg');
+        background-image: image-set(
+            url('../assets/images/Sushi__section2.webp') 1x,
+            url('../assets/images/Sushi__section2@2x.webp') 2x
+        );
     }
 
     .bg__section3::before {
-        background-image: url('../assets/images/Sushi__section3.jpeg');
+        background-image: image-set(
+            url('../assets/images/Sushi__section3.webp') 1x,
+            url('../assets/images/Sushi__section3@2x.webp') 2x
+        );
     }
     .bg__section4::before {
-        background-image: url('../assets/images/Sushi__section4.jpeg');
+        background-image: image-set(
+            url('../assets/images/Sushi__section4.webp') 1x,
+            url('../assets/images/Sushi__section4@2x.webp') 2x
+        );
     }
     .bg__section5::before {
-        background-image: url('../assets/images/Sushi__section5.jpeg');
+        background-image: image-set(
+            url('../assets/images/Sushi__section5.webp') 1x,
+            url('../assets/images/Sushi__section5@2x.webp') 2x
+        );
     }
     .bg__section6::before {
-        background-image: url('../assets/images/Sushi__section6.jpeg');
+        background-image: image-set(
+            url('../assets/images/Sushi__section6.webp') 1x,
+            url('../assets/images/Sushi__section6@2x.webp') 2x
+        );
     }
 </style>

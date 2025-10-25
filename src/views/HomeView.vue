@@ -78,14 +78,23 @@
     @import '../assets/base.css';
 
     .bg__section1::before {
-        background-image: url('../assets/images/Home__section1.jpeg');
+        background-image: image-set(
+            url('../assets/images/Home__section1.webp') 1x,
+            url('../assets/images/Home__section1@2x.webp') 2x
+        );
     }
 
     .bg__section2::before {
-        background-image: url('../assets/images/Home__section2.jpeg');
+        background-image: image-set(
+            url('../assets/images/Home__section2.webp') 1x,
+            url('../assets/images/Home__section2@2x.webp') 2x
+        );
     }
 
     .bg__section3::before {
-        background-image: url('../assets/images/Home__section3.jpeg');
+        background-image: image-set(
+            url('../assets/images/Home__section3.webp') 1x,
+            url('../assets/images/Home__section3@2x.webp') 2x
+        );
     }
 </style>
