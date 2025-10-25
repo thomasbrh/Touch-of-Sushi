@@ -3,6 +3,19 @@
     { name: '寿司', url: '#' },
     { name: '寿司の種類', url: '#' },
 ]
+
+import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
+    import { onMounted } from "vue";
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    onMounted(() => {
+        gsap.from(".navigation", {
+            x: 2000,
+            duration: 1
+        });
+    }) 
 </script>
 
 <template>

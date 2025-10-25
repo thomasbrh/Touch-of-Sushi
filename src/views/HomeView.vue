@@ -5,7 +5,7 @@
 <template>
     <Header title="寿司を食べてください"></Header>
     <!-- section 1 -->
-    <section class="bg__section bg__section1">
+    <section class="bg__section bg__section1 gsap__section">
         <h2>テイスティングの準備</h2>
 
         <h3>適切な環境を選ぶ</h3>

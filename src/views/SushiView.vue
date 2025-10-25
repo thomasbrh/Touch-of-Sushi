@@ -7,7 +7,7 @@
 
 
     <!-- section 1 -->
-    <section class="bg__section bg__section1">
+    <section class="bg__section bg__section1 gsap__section">
         <h2>寿司ワールド</h2>
 
         <h3>にぎり寿司</h3>
