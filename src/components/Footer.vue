@@ -10,7 +10,7 @@
             gsap.from(el, {
                 scrollTrigger: {
                     trigger: el,
-                    markers: true,
+                    markers: false,
                     start: "bottom 100%",
                     end: "bottom 50%",
                     toggleActions: "play none none reverse",
@@ -19,7 +19,6 @@
                 opacity: 0,
                 duration: 1,
                 ease: "power3.out",
-                once: true,
             });
         });
     });
@@ -37,8 +36,12 @@
         <p class="p__footer gsap__text">ありがとう、アドベストック。</p>
         <p class="p__footer gsap__text">ディープル、ありがとう。</p>
 
-        <p class="p__footer footer--link gsap__text">作成者 <a href="https://thomasbruch.be/portfolio/">Thomas</a> と <a href="http://www.elodiesomer.be/projets/TFA/Portfolio/">Elodie</a>。</p>
-        <small class="p__footer footer--link gsap__text">&copy; 2025 heaj student</small>
+        <p class="p__footer gsap__text">作成者 
+            <a href="https://thomasbruch.be/portfolio/">Thomas</a> 
+            と 
+            <a href="http://www.elodiesomer.be/projets/TFA/Portfolio/">Elodie</a>。
+        </p>
+        <small class="p__footer gsap__text">&copy;2025 HEAJ student.</small>
     </footer>
 </template>
 
@@ -66,11 +69,13 @@
         font-size: 14px;
         margin: 0px;
     }
-    a{
+
+    a {
+        font-size: 16px;
         text-decoration: none;
-        color: black;
+        color: var(--hover);
     }
-    .footer--link{
-        font-size: 11px;
+    a:hover {
+        text-decoration: underline;
     }
 </style>
