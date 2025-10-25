@@ -12,7 +12,8 @@
 
         <p class="p-footer">正しい動作を行う</p>
         <p class="p-footer">正しい動作を行う</p>
-        <p class="p-footer">正しい動作を行う</p>
+
+        <p class="p-footer">作成者 Thomas と Elodie</p>
     </footer>
 </template>
 
