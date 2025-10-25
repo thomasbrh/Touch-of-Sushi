@@ -17,7 +17,10 @@ defineProps({
 
 <style scoped>
     .background__img--header{
-        background-image: url('../assets/images/header.jpeg');
+        background-image: image-set(
+            url('../assets/images/header.webp') 1x,
+            url('../assets/images/header@2x.webp') 2x
+        );
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; 
