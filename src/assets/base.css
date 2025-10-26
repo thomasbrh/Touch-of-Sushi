@@ -229,6 +229,74 @@ section {
     
 }
 
-@media (max-width: 400px) {
-
+@media (max-width: 700px) {
+    html {
+        font-size: 16px;
+    }
+    
+    h1 {
+        font-size: 105px;
+    }
+    
+    h2 {
+        font-size: 41px;
+        margin-bottom: 2.2rem;
+    }
+    
+    h3 {
+        font-size: 34px;
+        margin-bottom: 1.75rem;
+    }
+    
+    h4 {
+        font-size: 23px;
+    }
+    
+    p {
+        font-size: 16px;
+        max-width: 75ch;
+        margin-bottom: 1.2rem;
+    }
+    
+    section {
+        padding: 1rem 2rem;
+    }
+    
+    
+    /* logo */
+    .logo img {
+        height: 3rem;
+    }
+    
+    
+    /* box */
+    .accompagnements {
+        width: 100%;
+        left: 6rem;
+        display: flex;
+        flex-wrap: wrap;  
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    .accompagnements--icon {
+        gap: 1rem;
+    }
+    
+    .box { 
+        width: 35ch;
+        margin: 1.25rem 0px 1.25rem 0px;
+        padding: 2.1rem;
+    }
+    
+    
+    .box .icon {
+        top: clamp(2rem, 7rem, 12rem);
+    }
+    
+    .icon {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+    
 }

@@ -99,4 +99,23 @@
             font-size: 15px;
         }
     }
+    @media (max-width: 700px) {
+        .background__img--footer {
+        background-image: url('../assets/images/footer.svg');
+        background-size: 30% auto;
+       background-position: 95%;
+
+
+        gap: 1.4rem;
+        }
+        p {
+            color: var(--primary);
+            font-size: 19px;
+            margin: 0px;
+        }
+
+        a {
+            font-size: 16px;
+        }
+    }
 </style>

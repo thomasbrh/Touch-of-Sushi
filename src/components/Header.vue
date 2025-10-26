@@ -83,13 +83,46 @@
     }
 
     @media (max-width: 900px){
+        .background__img--header::before{
+            position: relative;
+            width: 100%;
+            min-height: 100dvh;
+            overflow: hidden;
+        background-image: image-set(
+            url('../assets/images/header.webp') 1x,
+            url('../assets/images/header@2x.webp') 2x
+        );
 
+        position: absolute;
+        content: "";
+        inset: 0;
+
+        background-size: cover;
+        background-position: left center;
+        background-repeat: no-repeat; 
+        z-index: -1000;
+        opacity: 0.75;
+
+        aspect-ratio: 3 / 2;  /* ou 1.5 figma => aspect-ratio: 1440/961; */
+    }
         h1 {
         max-width: 10ch;
         position: absolute;
         top: 30.5dvh;
-        right: 35vw;
-        transform: translate(50%, -50%);
+        right: 60vw;
+        transform: translate(90%, -30%);
     }
     }
+
+    @media (max-width: 700px){
+
+
+        h1 {
+      
+        top: 40dvh;
+        right: 40vw;
+        transform: translate(60%, -50%);
+        }
+    }
+
 </style>
