@@ -162,4 +162,5 @@
             url('../assets/images/Home__section3@2x.webp') 2x
         );
     }
+
 </style>

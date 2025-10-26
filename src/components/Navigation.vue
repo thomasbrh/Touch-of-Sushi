@@ -57,4 +57,19 @@
     .nav-links a:hover {
         color: var(--hover);
     }
+    @media (max-width: 900px){
+        .navigation {
+        padding: 1rem 3.1rem;
+        gap: 2.55rem;
+    }
+
+    .nav-links {
+        gap: 2.55rem;
+    }
+
+    .nav-links a {
+        font-size: 26px;
+    }
+
+    }
 </style>

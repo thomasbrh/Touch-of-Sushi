@@ -78,4 +78,25 @@
     a:hover {
         text-decoration: underline;
     }
+    @media (max-width: 900px){
+        .background__img--footer {
+        background-image: url('../assets/images/footer.svg');
+        background-size: 50% auto;
+        background-position: 80%;
+
+        aspect-ratio: 3 / 2;
+
+        padding: 1.2rem 3.1rem;
+        gap: 3.1rem;
+        }
+        p {
+            color: var(--primary);
+            font-size: 18px;
+            margin: 0px;
+        }
+
+        a {
+            font-size: 15px;
+        }
+    }
 </style>

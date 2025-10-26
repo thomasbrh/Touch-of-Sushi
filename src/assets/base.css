@@ -155,3 +155,80 @@ section {
     height: 100vh;
     position: relative;
 }
+
+@media (max-width: 900px){
+    html {
+        font-size: 18px;
+    }
+    
+    h1 {
+        font-size: 118px;
+    }
+    
+    h2 {
+        font-size: 56px;
+        margin-bottom: 2.1rem;
+    }
+    
+    h3 {
+        font-size: 38px;
+        margin-bottom: 1.75rem;
+    }
+    
+    h4 {
+        font-size: 26px;
+    }
+    
+    p {
+        font-size: 18px;
+        max-width: 75ch;
+        margin-bottom: 1.2rem;
+    }
+    
+    section {
+        padding: 1rem 5.4rem;
+    }
+    
+    
+    /* logo */
+    .logo img {
+        height: 3.1rem;
+    }
+    
+    
+    /* box */
+    .accompagnements {
+        width: calc(100dvw - 12rem);
+        left: 6rem;
+        display: flex;
+        flex-wrap: wrap;  
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+    .accompagnements--icon {
+        gap: 3.1rem;
+    }
+    
+    .box { 
+        width: 23ch;
+        margin: 1.25rem 0px 1.25rem 0px;
+        padding: 2.1rem;
+    }
+    
+    
+    .box .icon {
+        top: clamp(2rem, 11rem, 12rem);
+    }
+    
+    .icon {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+    
+    
+}
+
+@media (max-width: 400px) {
+
+}

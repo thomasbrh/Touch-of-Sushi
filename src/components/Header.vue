@@ -81,4 +81,15 @@
         min-height: 100vh;
         overflow: hidden;
     }
+
+    @media (max-width: 900px){
+
+        h1 {
+        max-width: 10ch;
+        position: absolute;
+        top: 30.5dvh;
+        right: 35vw;
+        transform: translate(50%, -50%);
+    }
+    }
 </style>
